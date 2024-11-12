@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Date de livraison</legend>
+            <label>choisissezla date</label><input type="date" name="d"id="d">
+        </fieldset>
+        <fieldset>
+            <legend>votre identite</legend>
+            <ol>
+                <li><label>Nom</label><input type="text" placeholder="nom et prenom"></li>
+                <li><label>Email</label><input type="email" placeholder="exemple@domaine.com"></li>
+                <li><label>Telephone</label><input type="tel" placeholder="par ex:+21600000000"></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>adressede livraison</legend>
+            <ol>
+                <li><label>Adresse</label><textarea></textarea></li>
+                <li><label>Code postal</label><input type="number"></li>
+                <li><label>Ville</label>
+                    <select>
+                        <option value="sfax">sfax</option>
+                        <option value="manouba">manouba</option>
+                        <option value="tunisie">tunisie</option>
+                        <option value="benzart">benzart</option>
+                    </select></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>information CB</legend>
+            <ol>
+                <fieldset>
+                    <legend>type de carte bancaire</legend>
+                    <ol>
+                        <li><input type="radio" name="a"><label>VISA</label></li>
+                        <li><input type="radio" name="a"><label>AmEX</label></li>
+                        <li><input type="radio" name="a"><label>MasterCard</label></li>
+                    </ol>
+                </fieldset>
+                <li><label>N° de carte</label><input type="number"></li>
+                <li><label> Code de securite</label><input type="password"></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+        <input type="submit" value="j'achete">
+    </fieldset>
+    </form>
+</body>
+</html>
